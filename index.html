@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+      header {
+        margin-top: 0px;
+        border: solid;
+        display: flex;
+        justify-content: space-between;
+        position: static;
+        align-items: center;
+      }
+      body {
+        margin: 0px;
+      }
+      .menu-container span {
+        padding: 20px;
+        margin-right: 25px;
+      }
+      h1 {
+        margin-left: 25px;
+        background-color: lightgreen;
+        padding: 25px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      footer {
+        margin-bottom: 0px;
+        height: 10vh;
+        background-color: darkslategrey;
+      }
+      .main-container {
+        display: flex;
+        justify-content: flex-start;
+        background-color: gray;
+        height: 80vh;
+      }
+      .cat-container {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin: 30px;
+        width: 50%;
+        padding: 20px;
+        height: fit-content;
+      }
+      img {
+        height: 200px;
+        width: 200px;
+      }
+      .img-stuff {
+        display: flex;
+        align-items: center;
+      }
+      span {
+        padding: 20px;
+        word-spacing: 10px;
+      }
+      @media screen and (max-width: 640px) {
+        header {
+          flex-direction: column;
+        }
+        h1 {
+          width: 100%;
+          text-align: center;
+        }
+        .menu-container {
+          align-items: center;
+          padding: 30px;
+        }
+        .img-stuff {
+          flex-direction: column;
+        }
+        .cat-container {
+          margin: 10px;
+          width: 100%;
+        }
+        img {
+          width: 100%;
+        }
+        span {
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .cat-container{
+            width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Cihat Ozcan</h1>
+      <div class="menu-container">
+        <span>About</span>
+        <span>Portfolio</span>
+        <span>Contact</span>
+      </div>
+    </header>
+    <div class="main-container">
+      <div class="cat-container">
+        <div class="header-container">
+          <h2>About Me</h2>
+          <hr />
+        </div>
+        <div class="img-stuff">
+          <img
+            src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif"
+            alt="cat"
+          />
+          <span
+            >Marshmallow jelly souffle pastry bicuit gummi bears tootsie roll
+            tootsie roll. Marshmallow jelly souffle pastry bicuit gummi bears
+            tootsie roll tootsie roll.Marshmallow jelly souffle pastry bicuit
+            gummi bears tootsie roll tootsie roll</span
+          >
+        </div>
+        <div class="other-cat-stuff">
+          <span
+            >Marshmallow jelly souffle pastry bicuit gummi bears tootsie roll
+            tootsie roll. Marshmallow jelly souffle pastry bicuit gummi bears
+            tootsie roll tootsie roll.Marshmallow jelly souffle pastry bicuit
+            gummi bears tootsie roll tootsie roll</span
+          >
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>
